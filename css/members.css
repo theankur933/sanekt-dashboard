@@ -1,0 +1,62 @@
+.membership{
+    height: 500px;
+    width: 1265px;
+    bottom: 35pc;
+    margin-left: 80px;
+    position: relative;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.type-date{
+    justify-content: space-evenly;
+    position: relative;
+    top: 18px;
+}
+
+.sms-img img{
+    height: 20px;
+}
+
+.total-sent-sms, .current-sms-balance{
+    background: white;
+    border-radius: 10px;
+    height: 80px;
+    width: 177px;
+    position: relative;
+    margin-left: 54px;
+    top: 50px;
+    border-left: 1px solid red;
+}
+
+.para{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.sms-img img{
+    position: relative;
+    top: 11px;
+    left: 35px;
+}
+
+.search input{
+    position: relative;
+    top: 70px;
+    left: 58px;
+    padding: 3px 70px;
+    outline: 0;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.table{
+    position: relative;
+    top: 80px;
+}
+
+.search input::placeholder{
+    position: relative;
+    font-size: 10px;
+}

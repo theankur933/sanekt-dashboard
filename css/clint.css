@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.filter-area{
+    height: 620px;
+    width: 990px;
+    position: relative;
+    background-color: #f4f4f4;
+    left: 5pc;
+    border-radius: 10px;
+    bottom: 36pc;
+}
+
+.filter-area img{
+    height: 20px;
+}
+
+.filter-area .search-icon{    
+    position: relative;
+    bottom: 17pc;
+    padding: 0px 50px;
+    border: 1px solid #2a85ac;
+    border-radius: 10px;
+    left: 20px;
+}
+
+.search-icon img{
+    position: relative;
+    right: 35px;
+}
+
+.search-icon p{
+    position: relative;
+    top: 9px;
+    right: 20px;
+}
+
+.filter-img{
+    position: relative;
+    bottom: 17pc;
+    left: 3pc;
+}
+
+.filter-img p{
+    position: relative;
+    top: 9px;
+    left: 6px;
+}
+.filter-area a button{
+    position: relative;
+    bottom: 17pc;
+    left: 6pc;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border: 1px solid #2a85ac;
+}
+
+.import-img{
+    position: relative;
+    bottom: 17pc;
+    left: 10pc;
+    border: 1px solid #2a85ac;
+    border-radius: 10px;
+    padding: 0 20px;
+
+}
+
+.import-img img{
+    position: relative;
+    left: 3px;
+    bottom: 0;
+}
+
+.import-img p{
+    position: relative;
+    top: 9px;
+}
+
+.total{
+    position: relative;
+    bottom: 69pc;
+    margin-left: 100px;
+}
+
+.total2, .recent, .lost, .due, .male, .female, .member{
+    padding: 0px 35px;
+    border-left: 1px solid #2a85ac;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.table{
+    position: relative;
+    bottom: 66pc;
+    width: 70%;
+    left: 6pc;
+}
+
+.table img{
+    height: 20px;
+}

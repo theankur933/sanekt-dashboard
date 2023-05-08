@@ -1,0 +1,35 @@
+.sms-balance-marketing-box{
+    height: 500px;
+    width: 1250px;
+    position: relative;
+    bottom: 35pc;
+    margin-left: 80px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+
+.sms-balance-marketing-box img{
+    height: 20px;
+}
+
+.total-sent-sms, .current-sms-balance{
+    height: 100px;
+    width: 300px;
+    position: relative;
+    background-color: white;
+    top: 15px;
+    left: 17px;
+    border-left: 1px solid red;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.current-sms-balance{
+    position: relative;
+    left: 30px;
+}
+
+.para, .sms-img img{
+    position: relative;
+    top: 15px;
+}

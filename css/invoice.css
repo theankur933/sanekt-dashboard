@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.invoice-para{
+    width: 1258px;
+    height: 55px;
+    background-color: #f7f7f7;
+    position: relative;
+    left: 5pc;
+    bottom: 36pc;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.invoices{
+    position: relative;
+    top: 8px;
+}
+
+.invoice-para p:last-child, .invoices{
+    margin-left: 30px;
+}
+
+.invoices p:first-child{
+    border-bottom: 2px solid black;
+}
+
+.create-btn img{
+    height: 20px;
+}
+
+.create-new, .save, .option{
+    margin-right: 15px;
+}
+
+.create-new, .save{
+    border: 1px solid #2a85ac;
+    border-radius: 10px;
+}
+
+.create-new img, .save img{
+    position: relative;
+    left: 7px;
+}
+
+.create-new p, .save p{
+    position: relative;
+    top: 8px;
+    right: 20px;
+}
+
+.customer-left{
+    width: 850px;
+    height: 300px;
+    background-color: #f7f7f7;
+    position: relative;
+    left: 5pc;
+    border-radius: 10px;
+    bottom: 35pc;
+    justify-content: space-around;
+}
+
+.name-right{
+    width: 375px;
+    height: 200px;
+    background-color: #f7f7f7;
+    position: relative;
+    left: 6.4pc;
+    border-radius: 10px;
+    bottom: 38pc;
+}
+
+.name-right p{
+    line-height: 1;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+.service{
+    width: 550px;
+    height: 111px;
+    background-color: #f7f7f7;
+    position: relative;
+    left: 5.2pc;
+    border-radius: 10px;
+    bottom: 34pc;
+    justify-content: space-evenly;
+}
+
+.search{
+    border: 1px solid #2a85ac;
+    border-radius: 10px;
+    padding: 0 35px;
+}
+
+.service form select{
+    padding: 8px 35px;
+    border-radius: 10px;
+    border: 1px solid #2a85ac;
+    outline: 0;
+}
+
+.search img{
+    height: 20px;
+    position: relative;
+    right: 10px;
+}
+
+.service .search p{
+    position: relative;
+    top: 8px;
+}
+
+.customer-left .mobile, .date, .invoice-number{
+    position: relative;
+    bottom: 6pc;
+}
+
+.customer-left input, .invoice-number form select{
+    padding: 3px 5px;
+    border-radius: 10px 0 0 10px;
+    outline: 0;
+    border: 1px solid #f4f4f4;
+}
+
+.customer-left input{
+    border-radius: 10px;
+}
+
+.invoice-number select{
+    position: relative;
+    bottom: 10px;
+}
+
+.invoice-number label{
+    position: relative;
+    bottom: 10px;
+}
+
+.invoice-number form .number{
+    border: 1px solid #f4f4f4;
+    border-radius: 0 10px 10px 0;
+    background: white;
+    position: relative;
+    bottom: 10px;
+    height: 33px;
+    width: 70px;
+    right: 1px;
+}
+
+.no-item-added{
+    position: relative;
+    right: 26pc;
+    top: 30px;
+}

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.enquiry{
+    height: 400px;
+    width: 1240px;
+    position: relative;
+    background-color: #f4f4f4;
+    left: 5pc;
+    border-radius: 10px;
+    bottom: 36pc;
+}
+
+.export{
+    justify-content: space-between;
+}
+
+.image img{
+    height: 20px;
+}
+
+.status, .employee, .follow-up{
+    position: relative;
+    top: 13px;
+    margin-left: 35px;
+}
+
+.status form, .employee form, .follow-up form{
+    position: relative;
+    left: 10px;
+}
+
+.status select, .employee select, .follow-up select{
+    padding: 2px 15px;
+    border-radius: 10px;
+    outline: 0;
+    border: 1px solid #2a85ac;
+}
+
+.add-enquiry{
+    position: relative;
+    right: 45px;
+    top: 15px;
+}
+
+.add-enquiry a button{
+    position: relative;
+    left: 15px;
+    border: 1px solid #2a85ac;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+.all-btn{
+    position: relative;
+    top: 20px;
+    margin-left: 13px;
+}
+
+.all-btn button{
+    margin-left: 20px;
+}
+
+.search-enquiry img{
+    height: 20px;
+}
+
+.search-enquiry{
+    position: relative;
+    top: 45px;
+    margin-left: 28px;
+    gap: 11px;
+    padding: 10px 8px;
+    width: 25%;
+    border-radius: 10px;
+    height: 44px;
+    border: 1px solid #2a85ac;
+}
+
+.table{
+    position: relative;
+    top: 60px;
+}

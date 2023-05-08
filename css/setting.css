@@ -1,0 +1,43 @@
+.invoice-img img{
+    height: 20px;
+}
+.config{
+    height: 70px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 10px;
+    cursor: pointer;
+    gap: 20px;
+    align-items: center;
+    background-color: white;
+}
+
+.config:hover{
+    border-bottom: 1px solid #2a85ac;
+}
+
+.invoice-config{
+    gap: 20px;
+    position: relative;
+    top: 15px;
+    margin-left: 15px;
+    padding-bottom: 20px;
+}
+
+.membership h5{
+    position: relative;
+    top: 13px;
+    font-size: 15px;
+    margin-left: 21px;
+    font-weight: bold;
+}
+
+.membership h4{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.direction{
+    flex-flow: wrap;
+}

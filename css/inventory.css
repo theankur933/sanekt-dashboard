@@ -1,0 +1,58 @@
+.products{
+    height: 50px;
+    position: relative;
+    width: 1248px;
+    background-color: #f4f4f4;
+    bottom: 36pc;
+    left: 5pc;
+    align-items: center;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.products p{
+    margin-left: 20px;
+}
+
+.products p:first-child{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.sub-category{
+    height: 600px;
+    position: relative;
+    width: 660px;
+    background-color: #f4f4f4;
+    bottom: 35pc;
+    left: 5pc;
+    border-radius: 10px;
+}
+
+.search-category, .brand{
+    justify-content: space-between;
+}
+
+.option img{
+    height: 20px;
+}
+
+.brand-type{
+    margin-top: 15px;
+}
+
+.quality{
+    position: relative;
+    right: 144px;
+}
+
+.search2, .brandd{
+    position: relative;
+    left: 15px;
+}
+
+.table{
+    position: relative;
+    top: 15px;
+    left: 10px;
+}

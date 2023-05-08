@@ -1,0 +1,32 @@
+.left-staff{
+    height: 500px;
+    width: 350px;
+    background-color: #f4f4f4;
+    position: relative;
+    bottom: 35pc;
+    margin-left: 83px;
+    border-radius: 10px;
+}
+
+.search-btn{
+    position: relative;
+    top: 10px;
+    justify-content: space-evenly;
+}
+
+.search-btn a button{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 3px 11px;
+}
+
+.active-all{
+    position: relative;
+    top: 21px;
+    justify-content: space-evenly;
+}
+
+.table{
+    position: relative;
+    top: 30px;
+}

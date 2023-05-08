@@ -1,0 +1,133 @@
+.membership{
+    position: relative;
+    bottom: 36pc;
+}
+
+.type-datee{
+    position: relative;
+    top: 18px;
+    gap: 40px;
+    margin-left: 30px;
+}
+
+.membership{
+  height: auto;
+  padding-bottom: 100px;
+}
+
+.membership-type p, .all-sales .all p{
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+.all-sales{
+    margin-left: 30px;
+    position: relative;
+    top: 20px;
+    gap: 20px;
+}
+
+.switch {
+    width: 60px;
+    height: 34px;
+    gap: 75px;
+    position: relative;
+    right: 200px;
+    top: 25px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .multiple-btn{
+    justify-content: space-between;
+  }
+
+  .leftt1{
+    position: relative;
+    top: 20px;
+  }
+  .paragraph p{
+    white-space: nowrap;
+  }
+
+  .leftt1 a button, .leftt1 select{
+    margin-left: 30px;
+    padding: 0px 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  .selected-date span{
+    padding: 10px 10px;
+    background: white;
+    border-radius: 10px;
+    position: relative;
+    top: 40px;
+    margin-left: 30px;
+  }
+
+  .payment-mode{
+    position: relative;
+    top: 100px;
+  }
+
+  .tablee{
+    width: 30pc;
+  }
+
+  .mode{
+    padding: 30px 0;
+    text-align: center;
+  }
